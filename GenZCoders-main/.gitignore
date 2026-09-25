@@ -1,0 +1,99 @@
+# .NET / Visual Studio
+.vs/
+.vscode/
+**/bin/
+**/obj/
+**/build-check/
+**/TestResults/
+
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# Logs / temporary
+*.log
+*.tmp
+*.temp
+*.cache
+
+# Node / React / Vite
+**/node_modules/
+**/dist/
+**/build/
+**/.vite/
+**/.cache/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+
+# Environment / secrets
+**/.env
+**/.env.*
+**/.env*
+**/appsettings.json
+**/appsettings.Development.json
+
+# Keep example environment files
+!.env.example
+
+# Database files
+*.mdf
+*.ldf
+*.ndf
+*.bak
+
+# Coverage
+coverage/
+.nyc_output/
+*.coverage
+*.coveragexml
+
+# Firebase local files
+.firebase/
+firebase-debug.log
+.firebaserc.local
+
+# Vercel
+.vercel/
+
+# TypeScript
+*.tsbuildinfo
+
+# Generated files
+*.dll
+*.exe
+*.pdb
+*.obj
+*.lib
+*.exp
+
+# IDEs
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Misc
+*.orig
+*.rej
+
+# Generated API response
+**/response.json
